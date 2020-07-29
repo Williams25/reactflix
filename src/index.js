@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom'
 import './index.css'
 import App from './pages/Home/App'
 import CadastroVideo from './pages/cadastro/Video'
-import CadastroCategoria from './pages/cadastro'
+import CadastroCategoria from './pages/cadastro/Categoria'
 import { BrowserRouter, Switch, Route } from 'react-router-dom'
 
 ReactDOM.render(
