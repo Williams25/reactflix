@@ -7,11 +7,11 @@ export default props => {
 
   return (
     <nav className="Menu">
-      <a href="/">
+      <ButtonLink to="/">
         <img className="Logo" src={Logo} alt="" />
-      </a>
+      </ButtonLink>
 
-      <ButtonLink className="ButtonLink" href="/">
+      <ButtonLink className="ButtonLink" to="/cadastro/video">
         Novo vídeo
       </ButtonLink>
     </nav>
